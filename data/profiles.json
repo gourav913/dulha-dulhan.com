@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Rahul Sharma",
+    "gender": "Male",
+    "age": 28,
+    "city": "Delhi",
+    "community": "Brahmin",
+    "email": "rahul@example.com",
+    "phone": "9876543210",
+    "status": "New",
+    "adminNotes": "Looking for a working professional",
+    "id": 1,
+    "createdAt": "2026-01-28T10:45:19.902Z"
+  },
+  {
+    "name": "Priya Patel",
+    "gender": "Female",
+    "age": 26,
+    "city": "Mumbai",
+    "community": "Patel",
+    "email": "priya@example.com",
+    "phone": "9876543211",
+    "status": "Contacted",
+    "adminNotes": "Interested in overseas match",
+    "id": 2,
+    "createdAt": "2026-01-28T10:45:19.902Z"
+  },
+  {
+    "name": "Amit Verma",
+    "gender": "Male",
+    "age": 30,
+    "city": "Bangalore",
+    "community": "Kayastha",
+    "email": "amit@example.com",
+    "phone": "9876543212",
+    "status": "Interested",
+    "adminNotes": "",
+    "id": 3,
+    "createdAt": "2026-01-28T10:45:19.903Z"
+  }
+]

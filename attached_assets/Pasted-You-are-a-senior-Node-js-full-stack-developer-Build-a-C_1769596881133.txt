@@ -1,0 +1,174 @@
+You are a senior Node.js full-stack developer.
+
+Build a COMPLETE MATRIMONY INFORMATION WEBSITE named "dulha-dulhan.com"
+using Node.js and Express, compatible with Replit FREE version.
+
+====================
+TECH STACK
+====================
+- Backend: Node.js + Express
+- Frontend: HTML, CSS, Vanilla JavaScript, EJS templates
+- Data Storage: Local JS file (array / JSON style)
+- NO DATABASE (NO MongoDB, NO MySQL)
+- File-based data persistence
+- Responsive UI
+- Indian matrimony theme (Red, Gold, Cream)
+
+====================
+DATA STORAGE RULE
+====================
+- Create a file: /data/profiles.js
+- Store profiles as an array of objects
+- Admin edits update this JS file
+- Dummy data allowed
+- This is for demo only
+
+====================
+WEBSITE MENU
+====================
+- Home
+- About Us
+- Services
+- Success Stories
+- Contact Us
+- Profile Register
+
+====================
+FUNCTIONAL RULES
+====================
+1. No public profile search
+2. No public profile listing
+3. Users ONLY register profiles
+4. Admin can view, filter, and update profiles
+5. Profiles are private
+6. Dummy WhatsApp & Email UI only
+
+====================
+PUBLIC PAGES
+====================
+
+HOME PAGE
+- Hero text:
+  "Apna Vishwasniya Shaadi Platform"
+- CTA buttons:
+  Register as Dulha
+  Register as Dulhan
+- Trust icons:
+  100% Private
+  Admin Assisted
+  Family Oriented
+- How it works:
+  1. Register Profile
+  2. Admin Reviews & Matches
+  3. We Contact You
+
+ABOUT US
+- About dulha-dulhan.com
+- Mission & Vision
+- Privacy commitment
+
+SERVICES
+- Profile Registration
+- Admin Assisted Matchmaking
+- Complete Privacy Guaranteed
+- WhatsApp & Email Communication
+
+SUCCESS STORIES
+- Dummy static success cards
+- Couple name, city, message
+
+CONTACT US
+- Contact form
+- Dummy submit message
+- WhatsApp button (UI only)
+
+PROFILE REGISTER PAGE
+- Multi-step form (UI)
+- On submit:
+  Save profile into profiles.js
+- Redirect to Thank You page
+
+THANK YOU PAGE
+- Message:
+  "Thank you for registering. We will contact you soon."
+
+====================
+ADMIN PANEL
+====================
+
+Create folder: /admin
+
+ADMIN LOGIN
+- Hardcoded login:
+  username: admin
+  password: admin
+
+ADMIN DASHBOARD
+- Sidebar:
+  Dashboard
+  Profiles
+  Filters
+  Logout
+
+PROFILES PAGE
+- Load profiles from profiles.js
+- Display table:
+  ID
+  Name
+  Gender
+  Age
+  City
+  Community
+  Status
+
+FILTER OPTIONS
+- Gender
+- Age Range
+- City
+- Community
+- Status
+- Multiple filters together
+
+EDIT PROFILE
+- Admin can edit:
+  Name
+  Age
+  City
+  Community
+  Contact details
+  Status (New, Contacted, Interested, Closed)
+  Admin notes
+- Save updates back to profiles.js
+
+====================
+DESIGN REQUIREMENTS
+====================
+- Clean & attractive UI
+- Indian wedding color theme
+- Responsive layout
+- Simple fonts
+- Reusable header & footer
+- Admin panel clean UI
+
+====================
+PROJECT STRUCTURE
+====================
+
+/server.js
+/routes/
+/views/
+/views/admin/
+/public/css/
+/public/js/
+/data/profiles.js
+
+====================
+IMPORTANT
+====================
+- This is a DEMO website
+- File-based storage only
+- No real WhatsApp API
+- No real SMTP
+- Code must run in Replit free tier
+
+Generate the COMPLETE project code now.
